@@ -18,7 +18,7 @@
         $(function() {
 
             // Limit field settings to label and visiblity
-            fieldSettings['<?php echo $this->gravity_forms_field_type; ?>'] = '.label_setting, .visibility_setting, .recaptcha_theme_setting';
+            fieldSettings['<?php echo $this->gravity_forms_field_type; ?>'] = '.label_setting, .visibility_setting, .css_class_setting, .recaptcha_theme_setting';
 
             // Load CAPTCHA theme field settings
             $( document ).bind( 'gform_load_field_settings', function( e, field, form ) {
